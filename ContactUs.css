@@ -1,0 +1,228 @@
+.navbar{
+    
+    display: flex;
+    width: 100%;
+    height: 20%;
+    padding-bottom: 11px;
+    background: linear-gradient(to right, #008c45 30%,#ffffff 25%, #ffffff 50%, #ffffff 50%, #ffffff 78%, #cd212a 75%);
+    background-size: 100% 8px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+.logo{
+    
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-family: 'Chonburi', cursive;
+    font-size: 32px;
+    color: black;
+}
+.nav li{
+    margin: 0px 130px;
+    display: inline;
+    list-style: none;
+    font-size: 17px;
+    
+}
+.nav li a{
+    text-decoration: none;
+    display: inline-block;
+}
+.damn::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: width .3s;
+}
+.damn:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+section#main{
+    padding-top: 30px;
+}
+ nav#sidenav{
+    width: 130px;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding: 17px 7px;
+    border-radius: 15px 36px;
+    float: left;
+   
+}
+nav#sidenav li{
+    list-style: none;
+    
+}
+nav#sidenav li a{
+    text-decoration: underline black;
+    text-decoration-thickness: 1.2px;
+    text-decoration: none;
+}
+.yes{
+    text-decoration: underline #0b4237 2px;
+}
+.roman{
+    text-align: center;
+}
+
+
+
+input[type="checkbox"]{
+    display:inline;
+    margin: 0% 1%;
+} 
+
+input[type="submit"]{
+    padding: 2px 2px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    border: white solid 1px;
+    background-color:#b0d2cd ;
+    outline: none;
+    color: #0b4237;
+    font-size: 17px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+input[type="reset"]{
+    padding: 2px 2px;
+    border-radius: 4px;
+    width: 100px;
+    height: 40px;
+    border: white solid 1px;
+    background-color:#b0d2cd ;
+    outline: none;
+    color: #0b4237;
+    font-size: 17px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.submit{
+    margin-top: 20px;
+}
+
+.form{
+    padding: 7px 3px;
+    background: #F8FFFe;
+    border: 1px solid #b0d2cd;
+    color: #0b4237;
+    box-sizing: border-box;
+    margin: 50px 140px;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    
+}
+
+.dets input{
+    width: 260px;
+    height: 100%;
+    color: #595f6e;
+    padding: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background:#F8FFFe;
+    font-size: 14px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 1px solid black;
+}
+
+.dets label{
+  
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;  
+    display: block;
+}
+
+.countries input{
+    padding: 2px;
+    border: none;
+    border-bottom: black 1px solid;
+    border-radius: 3px;
+    background: none;
+    outline: none;
+   
+}
+
+.countries label{
+    display: block;
+}
+
+.group{
+  padding: 5px;
+  
+}
+.group2{
+    padding: 5px;
+    margin-left: -46px;
+}
+.group3{
+    padding: 5px;
+    margin-left: -31px;
+}
+footer{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+ul li{
+    display: inline-block;
+    padding: 24px 16px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.fab{
+    color: black;
+    font-size: 30px;
+}
+.far{
+    color: black;
+    font-size: 30px;
+}
+
+[type="checkbox"]{
+    opacity: 0;
+}
+
+[type="checkbox"] + label{
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 25px;
+}
+
+[type="checkbox"] + label::before{
+     content: "";
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     outline: 1px solid #aaa;
+     background: white;
+     left: -22px;
+     top: 5px;
+}
+
+[type="checkbox"]:checked + label::before{
+    content: "";
+     position: absolute;
+     width: 16px;
+     height: 16px;
+     outline: 2px solid #5fd25f;
+     background-color: #8adb8a;
+     left: -22px;
+     top: 5px;
+}
